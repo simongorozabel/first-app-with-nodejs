@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="/styles/project-detail.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+    <title>SocialWizard Agency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  </head>
+  
+  <style>
+    body{
+        margin: 0;
+    }
+    nav {
+        background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    nav h2 a{
+      font-size: 35px;
+      color: rgb(84, 84, 84);
+      font-weight: 900;
+      text-decoration: none;
+      letter-spacing: 6px;
+    }
+    .navBar{
+      display: flex;
+      gap: 100px;
+    }
+    .navBar li{
+      list-style: none;
+    }
+    .navBar li a{
+      font-size: 25px;
+      text-decoration: none;
+      color: rgb(84, 84, 84);
+      letter-spacing: 4px;
+    }
+    main{
+      min-height: 100vh;
+    }
+    footer{
+      background-color: lightblue;
+      color: rgb(84, 84, 84);
+      min-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+  </style>
+  <body>
+    <nav><h2><a href="/">SocialWizard</a></h2>
+    <ul class="navBar">
+        <li><a href="/about-us">About Us</a></li>
+        <li><a href="/team">Team</a></li>
+        <li><a href="/projects">Projects</a></li>
+    </ul>
+    </nav>
+    {{{body}}}
+    <footer>Este es mi footer</footer>
+  </body>
+</html>

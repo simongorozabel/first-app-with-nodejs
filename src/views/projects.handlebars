@@ -1,0 +1,10 @@
+<main>
+    <h1>These are the top projects we've been working on.</h1>
+    <p>Curiosity. Passion. Creativity.</p>
+   
+      <ul>
+         {{#each projects}}
+    <li><a href="/projects/{{this.id}}">{{this.name}}</a></li> 
+        {{/each}}
+    </ul>
+</main>
